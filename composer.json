@@ -1,0 +1,37 @@
+{
+    "name": "evaldx/laravel-linux-mssql-fix",
+    "description": "An optimized SQL Server Grammar for Laravel",
+    "keywords": ["sqlsrv", "laravel", "custom", "sqlserver", "sql"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evalds Meskovskis",
+            "email": "xxxevaldxxx@inbox.lv"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/evaldx/Laravel-Linux-MSSQL-fix/issues",
+        "source": "https://github.com/evaldx/Laravel-Linux-MSSQL-fix"
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/database": ">=4.1",
+        "illuminate/support": ">=4.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "~0.9",
+        "laravel/framework": ">=4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Evaldx\\SqlServerGrammar\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Evaldx\\SqlServerGrammar\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
