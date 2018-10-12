@@ -30,7 +30,7 @@ Once you included the service provider the Laravel will start using the custom g
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
-[ico-version]: https://img.shields.io/github/package-json/v/badges/shields.svg?style=flat-square
+[ico-version]: https://img.shields.io/badge/package-v1.0.0-blue.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/github/downloads-pre/atom/atom/latest/total.svg?style=flat-square
 
